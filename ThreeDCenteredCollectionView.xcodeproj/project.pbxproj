@@ -14,6 +14,8 @@
 		AD6BFCDE2106625A0072250B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6BFCDC2106625A0072250B /* LaunchScreen.storyboard */; };
 		AD6BFCE92106625A0072250B /* ThreeDCenteredCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BFCE82106625A0072250B /* ThreeDCenteredCollectionViewTests.swift */; };
 		AD6BFCF42106625A0072250B /* ThreeDCenteredCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BFCF32106625A0072250B /* ThreeDCenteredCollectionViewUITests.swift */; };
+		AD6BFD022106629B0072250B /* LGHorizontalLinearFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BFD012106629B0072250B /* LGHorizontalLinearFlowLayout.swift */; };
+		AD6BFD04210662B50072250B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BFD03210662B50072250B /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AD6BFCEF2106625A0072250B /* ThreeDCenteredCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeDCenteredCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6BFCF32106625A0072250B /* ThreeDCenteredCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDCenteredCollectionViewUITests.swift; sourceTree = "<group>"; };
 		AD6BFCF52106625A0072250B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6BFD012106629B0072250B /* LGHorizontalLinearFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGHorizontalLinearFlowLayout.swift; sourceTree = "<group>"; };
+		AD6BFD03210662B50072250B /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				AD6BFCD3210662580072250B /* AppDelegate.swift */,
 				AD6BFCD5210662580072250B /* ViewController.swift */,
+				AD6BFD012106629B0072250B /* LGHorizontalLinearFlowLayout.swift */,
+				AD6BFD03210662B50072250B /* CollectionViewCell.swift */,
 				AD6BFCD7210662580072250B /* Main.storyboard */,
 				AD6BFCDA2106625A0072250B /* Assets.xcassets */,
 				AD6BFCDC2106625A0072250B /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			files = (
 				AD6BFCD6210662580072250B /* ViewController.swift in Sources */,
 				AD6BFCD4210662580072250B /* AppDelegate.swift in Sources */,
+				AD6BFD04210662B50072250B /* CollectionViewCell.swift in Sources */,
+				AD6BFD022106629B0072250B /* LGHorizontalLinearFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
